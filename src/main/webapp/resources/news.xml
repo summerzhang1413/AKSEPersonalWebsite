@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifox>
+<news>
+  <item >
+    <title></title>
+    <content></content>
+  </item>
+  <item >
+    <title></title>
+    <content></content>
+  </item>
+  <item >
+    <title></title>
+    <content></content>
+  </item>
+  <item >
+    <title></title>
+    <content></content>
+  </item>
+  <item >
+    <title></title>
+    <content></content>
+  </item>
+  <item >
+    <title></title>
+    <content></content>
+  </item>
+</news>
+<imgnews>
+  <img></img>
+  <item></item>
+</imgnews>
+<images> 
+  <img src=""></img>
+  <img src=""></img>
+  <img src=""></img>
+  <img src=""></img>
+  <img src=""></img>
+  <img src=""></img>
+  <img src=""></img>
+</images>
+</ifox>

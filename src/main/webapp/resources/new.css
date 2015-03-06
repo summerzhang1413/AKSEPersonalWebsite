@@ -1,0 +1,26 @@
+#box #images {
+	height: 200px;
+	width: 1000px;
+	margin:auto;
+}
+ #box #content {
+margin-left:200px;
+margin-top:10px;
+}
+#box #content .new1 {
+	font-family: "Adobe ·ÂËÎ Std R";
+	color: #0066FF;
+	margin-top: 00px;
+	margin-left: 200px;
+	font-size:24px;
+}
+#box #content .p1 {
+	font-family:"ºÚÌå";
+	line-height: 20px;
+	color:#000000;
+	margin-left: 100px;
+}
+#box {
+	height: 500px;
+	width: auto;
+}

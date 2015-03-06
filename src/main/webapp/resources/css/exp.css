@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+#box {
+     height:auto;
+	 width: auto;
+	 background-color:#0033CC;
+}
+#box #head {
+background-color: #103667;
+	height: 30px;
+	width: auto;
+}
+#box #bg {
+background-image:url(../images/back1.png);
+ 
+	height: 430px;
+	width: auto;
+}
+#box #bg #content #title {
+    width: 955px;
+	height:25px;
+}
+#box #bg #content {
+
+	background-color:#FFFFFF;
+	height:auto;
+	width: 955px;
+	margin-top:70px;
+	margin-left:15%;
+}
+#box #bg #content #title ul {
+ border-bottom-width:1px;
+border-bottom-style:groove;
+border-bottom-color:#CC0000;
+height:23px;
+list-style:none;
+padding-left:23%;
+}
+#box #bg #content #title li {
+ padding:0 23px 0 23px;
+   border-right:1px solid #DDDDDD;
+    float:left;
+   line-height:20px;
+   height:23px;
+   display:inline-block;
+}
+#box #bg #content #title a {
+ 
+font-family:"微软雅黑";
+font-size:16px;
+color:#333333;
+text-decoration:none;
+}
+#box #bg #footer {
+background-color: #DEDEDE;
+	height: 140px;
+	width:955px;;
+	float:right
+  
+}
+#box #bg #footer ul {
+padding-top:27px;
+margin-left:10%;
+}
+#box #bg #footer li {
+padding-right:20px;
+ padding-left:20px;
+ border-right:1px solid #FFFFFF;
+   line-height:15px;
+   float:left;
+   list-style:none;
+}
+#box #bg #footer #add {
+font-family:"微软雅黑";
+line-height:50px;
+margin-left:17%;
+}
+#box #bg #footer a {
+text-decoration:none;
+color:#000000;
+}
+ 
+#box #bg #content #com {
+	 background-color: #FFFFFF;
+	height:auto;
+	width: 955px;
+}
+#box #bg #content #com #left {
+background-image:url(../images/bg.gif);
+	background-color: #FFFFFF;
+	float: left;
+	height: 550px;
+	width: 467px;
+}
+#box #bg #content #com #right {
+background-image:url(../images/bg.gif);
+	background-color: #FFFFFF;
+	float: right;
+	height: 550px;
+	width: 485px;
+}
+#box #bg #content #com #right td {
+border-bottom-style:dashed;
+border-bottom-width:thin;
+}
+#box #bg #content #com #left td {
+border-bottom-style:dotted;
+border-bottom-width:thin;
+}
+#box #bg #content #com #jieshao {
+ 
+	height: 50px;
+	width: 955px;
+}
+ 
+#box #bg #content #com #zhedie {
+	background-color: #0066CC;
+	float: left;
+	height: auto;
+	width: 955px;
+}
