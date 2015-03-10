@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -74,7 +75,7 @@ body,td,th {
 	
   <div id="title"> 
    <ul>
-   <li><a href="home.jsp">首页</a></li>
+   <li><a href="/home">首页</a></li>
    <li><a href="/resources/about.html">个人介绍</a></li>
    <li><a href="/resources/experience.html">演出经历</a></li>
    <li><a href="/resources/picture.html">精彩瞬间</a></li>
@@ -109,30 +110,16 @@ body,td,th {
 	    <div id="info1"> 
 		 
 		  <div id="bar1"> 
-		 <font color="#FFFFFF" style="font-weight:bold " > &#12288;&#12288;消息公告  <a href="#"  target="_blank"> 更多  &gt;&gt; </a></font> </div>
+		 <font color="#FFFFFF" style="font-weight:bold " > &#12288;&#12288;消息公告  <a href="/frontStage/showAllNews"  target="_blank"> 更多  &gt;&gt; </a></font> </div>
 		 
 	<table width="100%"   cellspacing="3" style="margin-top:10px">
- 
-  <tr>
-    <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/resources/news.html">2014年新生招收事项</a></td>
-  </tr>
-  <tr>
-    <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/resources/news.html" target="_blank">今晚北411召开关于学员交流大会</a></td>
-  </tr>
-  <tr>
-    <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/resources/news.html" target="_blank">实验室项目最新进展</a></td>
-  </tr>
-  <tr>
-    <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/resources/news.html" target="_blank">周老师给大家的寄语</a></td>
-  </tr>
- <tr>
-    <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/resources/news.html" target="_blank">关于暑假IFOX工作室学习的安排</a></td>
-  </tr>
-  <tr>
-    <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/resources/news.html" target="_blank">实验室情况的介绍</a></td>
-  </tr>
+        <c:forEach items="${allnews}" var="allnews" varStatus="status">
+            <tr>
+                <td height="28"> <img src="/resources/images/logo2.png" width="20" height="20" /><a href="/frontStage/showDetailsNews?id=${allnews.id}"><c:out value="${allnews.title}"></c:out></a></td>
+            </tr>
+        </c:forEach>
    
-</table>
+    </table>
 	    </div>
 	 
      

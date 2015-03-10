@@ -2,12 +2,10 @@ package com.springapp.domain;
 
 import javax.persistence.*;
 
-/**
- * Created by Administrator on 2015/3/6.
- */
+
 @Entity
-@Table(name = "news")
-public class News {
+@Table(name = "news", catalog = "personal")
+public class News extends BaseDomain{
     private int id;
     private String title;
     private String time;

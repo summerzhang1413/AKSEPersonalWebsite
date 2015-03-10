@@ -1,4 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -27,10 +28,9 @@ text-decoration: none;
   
   <div id="content"> 
   <br />
- <p>&#12288;&#12288;与2015年3月5日xxxxx开会，希全体到齐xxxxxxxxxxxxxxxxxxxxxxxx</p>
-  <p>2015年3月5日xxxxx开会，希全体到齐xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-   <p>2015年3月5日xxxxx开会，希全体到齐xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-   <p>2015年3月5日xxxxx开会，希全体到齐xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+    <p>&#12288;&#12288;<c:out value="${detailsNews.title}"/></p>
+    <p><c:out value="${detailsNews.time}"/></p>
+    <p><c:out value="${detailsNews.content}"/></p>
  <br />
  <br />  
  
